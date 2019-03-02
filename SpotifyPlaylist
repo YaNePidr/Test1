@@ -1,1 +1,33 @@
 
+import json
+import os
+
+test = """{
+ "name":"Ivan",
+ "favourite":"pedroid",
+ "age": 1 
+}"""
+
+testmap = json.loads("""{
+ "name":"Ivan",
+ "favourite":"pedroid",
+ "age": 1 
+}""")
+print(type(testmap))
+print(testmap['age'])
+
+
+#t = open('test.txt','r')
+#print(t.read())
+#t.close()
+print(os.listdir('/'))
+
+#print(")
+
+#print(os.listdir("."))
+
+#t = open('test.txt','w')
+#t.write("test")
+#t.close()
+
+#print(os.listdir("."))
